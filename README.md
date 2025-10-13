@@ -71,6 +71,36 @@ The initial analysis of the raw data revealed two critical characteristics that 
 *   **Model Comparison:** The six models were formally compared using AIC, BIC, and Log-Likelihood. The **Complex Negative Binomial model** was the clear winner on all metrics, confirming our initial EDA hypothesis.
 *   **Stability Check:** A 5-fold cross-validation was performed on the winning model, which showed highly consistent performance and confirmed its stability.
 
+## Modeling Approach
+
+| Model                     | Description                                 | Evaluation Metrics                  | Findings                                         |
+| ------------------------- | ------------------------------------------- | ----------------------------------- | ------------------------------------------------ |
+| **OLS Regression**        | Baseline linear model                       | R², Adj-R², RMSE                    | Poor handling of variance; unrealistic negatives |
+| **Poisson GLM**           | Log-link count model                        | Log-Likelihood, AIC, Deviance       | Better fit, but over-dispersion present          |
+| **Negative Binomial GLM** | Poisson extension with dispersion parameter | Log-Likelihood, AIC, Deviance, RMSE | Best overall fit; handles variance effectively   |
+
+
+## Model Performance Summary
+| Model                 | Log-Likelihood | Deviance   | RMSE (Hold-out) | Remarks                     |
+| --------------------- | -------------- | ---------- | --------------- | --------------------------- |
+| OLS                   | −123,370       | 246,900    | 39.12           | Baseline model              |
+| Poisson               | −90,703        | 100,600    | 27.45           | Improved but over-dispersed |
+| **Negative Binomial** | **−71,972**    | **15,841** | **23.64**       | **Preferred model**         |
+
+The Negative Binomial model captures variability most effectively, offering strong predictive stability and interpretable coefficients.
+
+ ## Cross-Validation Results (5-Fold)
+| Fold          | Log-Likelihood          | Deviance             |
+| ------------- | ----------------------- | -------------------- |
+| 1             | −14,319.26              | 3,144.95             |
+| 2             | −14,401.47              | 3,212.94             |
+| 3             | −14,651.54              | 3,047.33             |
+| 4             | −14,272.19              | 3,297.41             |
+| 5             | −14,371.44              | 3,226.63             |
+| **Mean ± SD** | **−14,403.18 ± 131.83** | **3,185.85 ± 84.50** |
+Interpretation:
+Low standard deviations confirm that the model generalizes well across folds — a key indicator of robustness.
+
 ### 5. Final Evaluation
 The winning Complex Negative Binomial model was applied to the unseen test set, where it achieved a final **RMSE of 23.64**.
 

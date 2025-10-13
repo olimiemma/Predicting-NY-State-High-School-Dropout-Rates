@@ -1,0 +1,146 @@
+Project 1: Implementing and Evaluating a Series of Regression Models
+Due Monday by 11:59pm Points 100 Submitting a file upload
+Complete the Individual/Group Project
+You have the option to complete the work in groups of up to 4 students.
+
+For your first Project of the course you will be working with a dataset comprised of information pertaining to NY State High School graduation metrics for the 2018-2019 school year.
+
+evan-dennis-i--IN3cvEjg-unsplash (1).jpg
+
+Your objective for Project 1 is to apply the full data science project lifecycle to the implementation and evaluation of a series of regression models that predict the number of student “dropouts” relative to certain properties/characteristics of a given school district + associated student subgrouping. .
+
+Your work will include EDA, data preparation (including transforms as needed), feature selection, and a thorough evaluation of model performance metrics. After constructing and evaluating your models, you will identify your preferred model and apply it to an evaluation data set to assess its performance.
+
+The Project 1 data set can be downloaded here: Project1_Data.csvDownload Project1_Data.csv
+
+Your deliverable for this Assignment is a Jupyter Notebook containing your Python code + supporting narratives as well as a brief video presentation of your work.
+
+For more details, review the Project 1 document Download Project 1 document.
+
+This assignment is due by the end of Module 6
+
+Questions?
+First review the assignment document as well as the grading rubric. Then post to our M6 Questions and Solutions forum.
+
+Rubric
+Project 1
+Project 1
+Criteria	Ratings	Pts
+This criterion is linked to a Learning OutcomeIntroduction
+5 pts
+Exemplary
+Clearly summarizes the problem and explains intended steps.
+4 pts
+Proficient
+Problem summarized and steps discussed, but explanation could be clearer or more complete.
+3 pts
+Developing
+Attempted, but does not address problem and/or intended steps.
+0 pts
+Not Attempted
+No introduction
+5 pts
+This criterion is linked to a Learning OutcomeExploratory Data Analysis
+10 pts
+Exemplary
+Data exploration is thorough and includes conclusions regarding integrity and usability of data in its raw state. All relevant Python code is provided.
+8 pts
+Proficient
+Data exploration includes conclusions regarding integrity and usability of data in its raw state but discussion could be more complete. All relevant Python code provided.
+6 pts
+Developing
+Attempted, but data exploration is insufficient or not all Python code provided.
+0 pts
+Not attempted
+No EDA
+10 pts
+This criterion is linked to a Learning OutcomeData Preparation
+10 pts
+Exemplary
+All key data integrity and usability issues are addressed and explained in sufficient detail. All relevant Python code provided.
+8 pts
+Proficient
+All key data integrity and usability issues are addressed but needs better supporting explanation OR one key data issue has been overlooked. All relevant Python code provided.
+6 pts
+Developing
+Attempted, but several key integrity and usability issues are not addressed and/or not all Python code provided.
+0 pts
+Not attempted
+No discussion of data preparation.
+10 pts
+This criterion is linked to a Learning OutcomePrepped Data Review
+5 pts
+Exemplary
+Explains all Post-Data Prep EDA changes with relevant "pre" comparisons and how it has enhanced dataset for machine learning. All relevant Python code for "post" EDA provided.
+4 pts
+Proficient
+Explains all Post-Data Prep EDA changes and all relevant Python code for "post" EDA provided. However discussion (comparisons with "pre" EDA , how changes enhanced dataset for machine learning) could be more complete.
+3 pts
+Developing
+Attempted, but post-Data Prep EDA changes insufficiently documented and/or explained. AND/OR post-data prep EDA Python code not provided.
+0 pts
+Not attempted
+No "post" EDA analysis
+5 pts
+This criterion is linked to a Learning OutcomeRegression Model and Evaluation
+40 pts
+Exemplary
+Thoroughly explains and presents regression modeling work including an accurate and insightful discussion and interpretation of model coefficients.. All relevant Python code relative to model construction and output.
+32 pts
+Proficient
+Explains and presents regression modeling work including an accurate discussion and interpretation of model coefficients. All relevant Python code relative to model construction and output. However, discussion could be more insightful and/or complete.
+24 pts
+Developing
+Attempted, but regression modeling work is incomplete AND/OR discussion is insufficient AND/OR relevant Python code not provided
+0 pts
+Not attempted
+No discussion of model results.
+40 pts
+This criterion is linked to a Learning OutcomeModel selection
+15 pts
+Exemplary
+Thoroughly explains and presents how model selection criteria were determined and utilized to determine preferred model. Preferred model also applied to evaluation data set and discussed. All relevant Python code provided.
+12 pts
+Proficient
+Model selection criteria is identified and explained, and preferred model justified and applied to evaluation data set with all relevant code provided. However, discussion could be more complete/persuasive or model choice is not optimal.
+9 pts
+Developing
+Attempted, but criteria are insufficiently identified and/or preferred model is inferior to others and/or preferred model is not applied to evaluation set and/or relevant Python code not provided.
+0 pts
+Not attempted
+No discussion of model selection and/or application of preferred model to evaluation data set.
+15 pts
+This criterion is linked to a Learning OutcomeConclusions
+5 pts
+Exemplary
+Conclusions are clearly stated and connected to analysis results.
+4 pts
+Proficient
+Conclusions are connected to analysis results but could be more clearly stated.
+3 pts
+Developing
+Attempted, but conclusions are not connected to analysis results.
+0 pts
+Not attempted
+No conclusion
+5 pts
+This criterion is linked to a Learning OutcomeVideo Presentation
+10 pts
+Exemplary
+Includes a brief overview of your EDA findings, a high-level explanation of data preparation and feature selection process, the modeling effort, the model selection process , and performance of model when applied to evaluation data set. Video is approximately 5 minutes long and professionally executed
+8 pts
+Proficient
+Video presentation covers all requested topics but could be more completed professionally (e.g., better delivery, better adherence to time constraints, better familiarity with material, more insightful discussion).
+6 pts
+Developing
+Attempted, but video does not address all requested elements.
+0 pts
+Not attempted
+No video
+10 pts
+Total Points: 100
+
+more context ={DAV 6150: Your workplan for this week - Get Started on Project 1
+Your first Project of the semester Project 1: Implementing and Evaluating a Series of Regression Models is due no later than end of day Monday Oct 13.  I strongly suggest that, at a minimum, you get started on the parts 1 through 4 (i.e., the Introduction, EDA, Data Preparation, and Prepped Data Review), tasks for which you are already familiar with, as soon as possible.
+Additionally, you should be engaging with the Module 6 learning materials so that you are prepared to complete the Project on time. We will review the content of Module 6 during our class session this week. These class sessions are the best way for students to ask questions regarding the assigned learning materials.}
+Attached is some of the module 6 material

@@ -1,0 +1,114 @@
+--- Negative Binomial Regression Model Summary ---
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:                      y   No. Observations:                27771
+Model:                            GLM   Df Residuals:                    27679
+Model Family:        NegativeBinomial   Df Model:                           91
+Link Function:                    Log   Scale:                          1.0000
+Method:                          IRLS   Log-Likelihood:                -71972.
+Date:                Mon, 13 Oct 2025   Deviance:                       15841.
+Time:                        18:52:30   Pearson chi2:                 1.51e+04
+No. Iterations:                    11   Pseudo R-squ. (CS):             0.3889
+Covariance Type:            nonrobust                                         
+========================================================================================================================
+                                                           coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------------------------
+cat__subgroup_name_All Students                         -0.2774      0.036     -7.761      0.000      -0.347      -0.207
+cat__subgroup_name_American Indian/Alaska Native         0.2358      0.091      2.596      0.009       0.058       0.414
+cat__subgroup_name_Asian/Pacific Islander               -0.8843      0.062    -14.172      0.000      -1.007      -0.762
+cat__subgroup_name_Black                                -0.1816      0.048     -3.771      0.000      -0.276      -0.087
+cat__subgroup_name_Economically Disadvantaged            0.1515      0.036      4.171      0.000       0.080       0.223
+cat__subgroup_name_English Language Learner              1.5794      0.052     30.416      0.000       1.478       1.681
+cat__subgroup_name_Female                               -0.5406      0.037    -14.805      0.000      -0.612      -0.469
+cat__subgroup_name_Formerly English Language Learner    -0.6577      0.076     -8.601      0.000      -0.808      -0.508
+cat__subgroup_name_General Education Students           -0.4752      0.036    -13.104      0.000      -0.546      -0.404
+cat__subgroup_name_Hispanic                              0.3390      0.043      7.822      0.000       0.254       0.424
+cat__subgroup_name_Homeless                              0.6879      0.054     12.797      0.000       0.583       0.793
+cat__subgroup_name_In Foster Care                        0.8779      0.235      3.741      0.000       0.418       1.338
+cat__subgroup_name_Male                                 -0.1532      0.036     -4.270      0.000      -0.224      -0.083
+cat__subgroup_name_Migrant                               1.0467      0.337      3.103      0.002       0.386       1.708
+cat__subgroup_name_Multiracial                          -0.0525      0.069     -0.757      0.449      -0.188       0.083
+cat__subgroup_name_Not Economically Disadvantaged       -0.7120      0.037    -19.406      0.000      -0.784      -0.640
+cat__subgroup_name_Not English Language Learner         -0.4733      0.051     -9.350      0.000      -0.573      -0.374
+cat__subgroup_name_Not Homeless                         -0.2286      0.049     -4.689      0.000      -0.324      -0.133
+cat__subgroup_name_Not Migrant                          -0.1474      0.249     -0.593      0.553      -0.634       0.340
+cat__subgroup_name_Not in Foster Care                    0.0768      0.180      0.426      0.670      -0.277       0.430
+cat__subgroup_name_Parent Not in Armed Forces           -0.1136      0.246     -0.462      0.644      -0.595       0.368
+cat__subgroup_name_Parent in Armed Forces               -1.1465      0.315     -3.643      0.000      -1.763      -0.530
+cat__subgroup_name_Students with Disabilities            0.3331      0.037      8.892      0.000       0.260       0.407
+cat__subgroup_name_White                                -0.5288      0.038    -13.858      0.000      -0.604      -0.454
+cat__nrc_desc_Average Needs                             -0.4419      0.017    -25.915      0.000      -0.475      -0.408
+cat__nrc_desc_Buffalo  Rochester  Yonkers  Syracuse      0.5569      0.054     10.258      0.000       0.451       0.663
+cat__nrc_desc_Low Needs                                 -1.3343      0.025    -52.628      0.000      -1.384      -1.285
+cat__nrc_desc_NYC                                       -0.3671      0.015    -24.477      0.000      -0.396      -0.338
+cat__nrc_desc_Rural High Needs                          -0.1248      0.025     -4.911      0.000      -0.175      -0.075
+cat__nrc_desc_Urban-Suburban High Needs                  0.4664      0.023     20.024      0.000       0.421       0.512
+cat__county_name_ALBANY                                  0.0722      0.053      1.352      0.176      -0.032       0.177
+cat__county_name_ALLEGANY                               -0.4497      0.080     -5.640      0.000      -0.606      -0.293
+cat__county_name_BRONX                                   0.1621      0.048      3.398      0.001       0.069       0.256
+cat__county_name_BROOME                                 -0.0670      0.051     -1.310      0.190      -0.167       0.033
+cat__county_name_CATTARAUGUS                            -0.1412      0.062     -2.270      0.023      -0.263      -0.019
+cat__county_name_CAYUGA                                  0.1428      0.075      1.912      0.056      -0.004       0.289
+cat__county_name_CHAUTAUQUA                             -0.1440      0.052     -2.761      0.006      -0.246      -0.042
+cat__county_name_CHEMUNG                                 0.5572      0.096      5.821      0.000       0.370       0.745
+cat__county_name_CHENANGO                                0.0578      0.075      0.773      0.440      -0.089       0.204
+cat__county_name_CLINTON                                 0.1467      0.071      2.062      0.039       0.007       0.286
+cat__county_name_COLUMBIA                                0.2767      0.075      3.703      0.000       0.130       0.423
+cat__county_name_CORTLAND                               -0.3474      0.091     -3.836      0.000      -0.525      -0.170
+cat__county_name_DELAWARE                               -0.1730      0.081     -2.141      0.032      -0.332      -0.015
+cat__county_name_DUTCHESS                                0.2617      0.048      5.458      0.000       0.168       0.356
+cat__county_name_ERIE                                   -0.0997      0.036     -2.775      0.006      -0.170      -0.029
+cat__county_name_ESSEX                                  -0.1788      0.105     -1.706      0.088      -0.384       0.027
+cat__county_name_FRANKLIN                               -0.0990      0.081     -1.227      0.220      -0.257       0.059
+cat__county_name_FULTON                                  0.5361      0.085      6.344      0.000       0.370       0.702
+cat__county_name_GENESEE                                -0.5199      0.084     -6.162      0.000      -0.685      -0.355
+cat__county_name_GREENE                                 -0.1129      0.087     -1.304      0.192      -0.283       0.057
+cat__county_name_HAMILTON                               -0.4521      0.368     -1.230      0.219      -1.173       0.269
+cat__county_name_HERKIMER                                0.0599      0.069      0.863      0.388      -0.076       0.196
+cat__county_name_JEFFERSON                              -0.1797      0.061     -2.966      0.003      -0.298      -0.061
+cat__county_name_KINGS                                  -0.0630      0.040     -1.565      0.118      -0.142       0.016
+cat__county_name_LEWIS                                  -0.7295      0.115     -6.334      0.000      -0.955      -0.504
+cat__county_name_LIVINGSTON                              0.0508      0.073      0.692      0.489      -0.093       0.195
+cat__county_name_MADISON                                 0.1271      0.067      1.890      0.059      -0.005       0.259
+cat__county_name_MONROE                                 -0.3587      0.041     -8.650      0.000      -0.440      -0.277
+cat__county_name_MONTGOMERY                              0.4000      0.080      4.997      0.000       0.243       0.557
+cat__county_name_NASSAU                                 -0.3993      0.033    -12.129      0.000      -0.464      -0.335
+cat__county_name_NEW YORK                               -0.1199      0.048     -2.524      0.012      -0.213      -0.027
+cat__county_name_NIAGARA                                 0.0910      0.053      1.711      0.087      -0.013       0.195
+cat__county_name_ONEIDA                                 -0.3585      0.054     -6.679      0.000      -0.464      -0.253
+cat__county_name_ONONDAGA                               -0.2706      0.045     -6.050      0.000      -0.358      -0.183
+cat__county_name_ONTARIO                                 0.1260      0.063      1.994      0.046       0.002       0.250
+cat__county_name_ORANGE                                 -0.3677      0.044     -8.353      0.000      -0.454      -0.281
+cat__county_name_ORLEANS                                -0.1715      0.088     -1.940      0.052      -0.345       0.002
+cat__county_name_OSWEGO                                  0.2806      0.058      4.814      0.000       0.166       0.395
+cat__county_name_OTSEGO                                 -0.1664      0.070     -2.389      0.017      -0.303      -0.030
+cat__county_name_PUTNAM                                  0.0315      0.082      0.383      0.701      -0.130       0.193
+cat__county_name_QUEENS                                 -0.1751      0.045     -3.866      0.000      -0.264      -0.086
+cat__county_name_RENSSELAER                             -0.2383      0.059     -4.029      0.000      -0.354      -0.122
+cat__county_name_RICHMOND                               -0.1712      0.101     -1.689      0.091      -0.370       0.028
+cat__county_name_ROCKLAND                               -0.0200      0.058     -0.344      0.731      -0.134       0.094
+cat__county_name_SAINT LAWRENCE                         -0.1160      0.056     -2.055      0.040      -0.227      -0.005
+cat__county_name_SARATOGA                                0.1567      0.055      2.862      0.004       0.049       0.264
+cat__county_name_SCHENECTADY                             0.1251      0.069      1.816      0.069      -0.010       0.260
+cat__county_name_SCHOHARIE                               0.0800      0.095      0.841      0.401      -0.107       0.267
+cat__county_name_SCHUYLER                               -0.3438      0.154     -2.232      0.026      -0.646      -0.042
+cat__county_name_SENECA                                  0.3934      0.098      3.999      0.000       0.201       0.586
+cat__county_name_STEUBEN                                -0.1299      0.062     -2.107      0.035      -0.251      -0.009
+cat__county_name_SUFFOLK                                -0.1506      0.028     -5.415      0.000      -0.205      -0.096
+cat__county_name_SULLIVAN                                0.5764      0.062      9.293      0.000       0.455       0.698
+cat__county_name_TIOGA                                   0.0761      0.088      0.869      0.385      -0.095       0.248
+cat__county_name_TOMPKINS                                0.3064      0.075      4.085      0.000       0.159       0.453
+cat__county_name_ULSTER                                  0.3143      0.054      5.809      0.000       0.208       0.420
+cat__county_name_WARREN                                  0.2617      0.080      3.285      0.001       0.106       0.418
+cat__county_name_WASHINGTON                              0.4452      0.067      6.620      0.000       0.313       0.577
+cat__county_name_WAYNE                                   0.1842      0.057      3.242      0.001       0.073       0.296
+cat__county_name_WESTCHESTER                            -0.5094      0.036    -14.227      0.000      -0.580      -0.439
+cat__county_name_WYOMING                                -0.1607      0.104     -1.552      0.121      -0.364       0.042
+cat__county_name_YATES                                   0.4398      0.134      3.282      0.001       0.177       0.702
+cat__nyc_ind_0                                          -0.8776      0.015    -58.990      0.000      -0.907      -0.848
+cat__nyc_ind_1                                          -0.3671      0.015    -24.477      0.000      -0.396      -0.338
+num__grad_cnt                                            0.0008   5.29e-05     15.067      0.000       0.001       0.001
+num__reg_adv_cnt                                        -0.0024      0.000    -19.378      0.000      -0.003      -0.002
+num__still_enr_cnt                                      -0.0011      0.000     -4.555      0.000      -0.002      -0.001
+const                                                   -1.2447      0.018    -67.408      0.000      -1.281      -1.208
+========================================================================================================================

@@ -114,5 +114,3 @@ The final model provided clear and interpretable insights into the factors drivi
 *   **Top Protective Factors:** District resources were the most protective. Being in a **"Low Needs"** district was associated with a ~74% reduction in the expected dropout rate compared to the baseline.
 
 ---
-
-## Repository Structure
